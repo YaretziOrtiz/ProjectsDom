@@ -1,0 +1,30 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(154, 188, 216);
+}
+.images, .choices, .result {
+    width: 100%;
+    text-align: center;
+}
+picture img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+h1 {
+    width: 60%;
+    height: 30%;
+    background-color: rgb(86, 146, 202);
+    border: 3px solid #064699; 
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+}
