@@ -4,8 +4,8 @@ const inputHeight = document.querySelector('#height');
 const inputBorderRadius = document.querySelector('#borderRadius');
 const inputSombra = document.querySelector('#sombra');
 
-let width = 0;
-let height = 0;
+let width = 300;
+let height = 300;
 let borderRadius = 0;
 let sombra = 0;
 
