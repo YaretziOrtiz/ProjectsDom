@@ -3,11 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOM Projects
+    <title>DOM Projects</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+            place-items: center;
+            background-color: #f7ede2;
+        }
 
-    </title>
+        h1 {
+            color: #333c83;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 3rem;
+            background-color: #d4a5a5;
+            padding: 10px;
+            width: 100%;
+            text-align: center;
+            margin: 0;
+        }
+
+        .button-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            justify-items: center;
+            margin-top: 20px;
+        }
+
+        .button {
+            padding: 12px 24px;
+            font-size: 16px;
+            color: #ffffff;
+            background-color: #7b6079;
+            text-decoration: none;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+            width: 200px; /* Fija el mismo ancho para todos los botones */
+            height: 50px; /* Fija la misma altura para todos los botones */
+            display: flex; /* Para centrar el texto vertical y horizontalmente */
+            justify-content: center;
+            align-items: center;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #4e3d53;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 10px;
+            text-align: center;
+            background-color: #c6dabf;
+            width: 100%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: #333c83;
+            font-size: 1.2rem;
+            padding: 5px 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>Ejercicios de practicas DOM</h1>    
+    <h1>Ejercicios de prácticas DOM</h1>   
+    <div class="button-container">
+        <a href="animado/index.html" class="button">Animado.</a>
+        <a href="colorsbg/index.html" class="button">Colores BG.</a>
+        <a href="colorsinput/index.html" class="button">Colores Input.</a>
+        <a href="dibujo/index.html" class="button">Mi dibujo con Canvas.💖</a>
+        <a href="dynamicdiv/index.html" class="button">Div dinámico</a>
+        <a href="game/index.html" class="button">Serpiente.🐍</a>
+        <a href="hellok/index.html" class="button">Hello Kitty.😺🎀</a>
+        <a href="ppt/index.html" class="button">Piedra, papel y tijera.🪨📄✂️</a>
+        <a href="todoapp/index.html" class="button">App de tareas.📒</a>
+    </div>
+    <br>
+    <footer>© Yaretzi Ortiz Garcia, 2024 Ejercicios DOM</footer>
+    <script src="./app.js"></script> 
 </body>
 </html>

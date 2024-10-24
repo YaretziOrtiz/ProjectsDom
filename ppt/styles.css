@@ -1,4 +1,6 @@
 body {
+    margin: 0;
+    padding: 0;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -27,4 +29,35 @@ h1 {
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     padding: 20px;
+}
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #4CAF50; 
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.button:hover {
+    background-color: #45a049; 
+    transform: scale(1.05); 
+}
+
+.button:active {
+    background-color: #3e8e41;
+    transform: scale(0.98);
+}
+
+.button:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(76, 175, 80, 0.5); 
 }
